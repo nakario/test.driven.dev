@@ -1,6 +1,7 @@
-import React from "react"
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import React from "react";
 
-const tdd: string = "TDD"
+const tdd = "TDD";
 
 export default () => (
   <div>
@@ -10,4 +11,4 @@ export default () => (
       <a href="https://github.com/nakario/test.driven.dev">this GitHub repo</a>.
     </p>
   </div>
-)
+);
