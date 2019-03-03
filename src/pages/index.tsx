@@ -1,8 +1,10 @@
 import React from "react"
 
+const tdd: string = "TDD"
+
 export default () => (
   <div>
-    <p>Hello TDD!</p>
+    <p>Hello {tdd}!</p>
     <p>
       This website is developed in{" "}
       <a href="https://github.com/nakario/test.driven.dev">this GitHub repo</a>.
