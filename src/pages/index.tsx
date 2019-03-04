@@ -1,9 +1,9 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import React from "react";
+import React, { ReactElement } from "react";
 
 const tdd = "TDD";
 
-export default () => (
+const Index = (): ReactElement => (
   <div>
     <p>Hello {tdd}!</p>
     <p>
@@ -12,3 +12,5 @@ export default () => (
     </p>
   </div>
 );
+
+export default Index;
